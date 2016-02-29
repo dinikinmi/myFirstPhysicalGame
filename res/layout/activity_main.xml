@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.killbillgate.MainActivity" >
+
+
+<TextView
+    android:id="@+id/main_topLine_tv"
+    android:layout_alignParentTop="true"
+    android:layout_width="match_parent"
+    android:layout_height="10px"
+    android:text="  "
+    android:background="#FF333222"
+    />
+
+
+<TextView
+    android:id="@+id/main_leftLine_tv"
+    android:layout_alignParentLeft="true"
+    android:layout_width="10px"
+    android:layout_height="match_parent"
+    android:text="  "
+    android:background="#FF333222"
+    />
+    
+
+
+<TextView
+    android:id="@+id/main_rightLine_tv"
+    android:layout_alignParentRight="true"
+    android:layout_width="10px"
+    android:layout_height="match_parent"
+    android:text="  "
+    android:background="#FF333222"
+    />
+
+
+
+<TextView
+    android:id="@+id/main_bottomLine_tv"
+    android:layout_alignParentBottom="true"
+    android:layout_width="match_parent"
+    android:layout_height="10px"
+    android:text="  "
+    android:background="#FF333222"
+    />
+
+
+<ImageButton 
+    android:id="@+id/main_bgAvatar_ib"
+    android:layout_width="50dp"
+    android:layout_height="50dp"
+    android:background="@drawable/ic_launcher"
+    />
+    
+</RelativeLayout>
